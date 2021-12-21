@@ -1,0 +1,81 @@
+.favoritesWrapper{
+  padding: 40px 45px;
+  //min-height: 70vh;
+}
+.favoritesTitle{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  h2{
+    margin-left: 21px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  a{
+    display: block;
+    margin-top: 4px;
+  }
+  img{
+    cursor: pointer;
+  }
+}
+
+.favoritesCardWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.favoritesEmpty{
+  text-align: center;
+  margin: 100px 0;
+
+  img{
+
+  }
+  h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0 11px;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    opacity: 0.4;
+  }
+  .btnGreen{
+    background: #9dd458;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    height: 55px;
+    max-width: 264px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+
+    img{
+      position: absolute;
+      left: 36px;
+      margin-top: 2px;
+      transition: transform 0.1s ease-in-out;
+      transform: rotateY(192deg);
+    }
+    &:hover{
+      background: #a4e35a;
+      transition: background 0.2s ease-in-out;
+      img{
+        transform: translateX(-5px) rotateY(192deg);
+      }
+    }
+    &:active{
+      background: #90be4b;
+    }
+  }
+}

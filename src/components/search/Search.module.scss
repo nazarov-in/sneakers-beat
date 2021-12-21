@@ -1,0 +1,17 @@
+.searchWrapper{
+  border: 1px solid #F3F3F3;
+  border-radius: 10px;
+  padding: 0 15px;
+
+  input{
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #C4C4C4;
+    padding: 13px;
+  }
+  input:focus{
+    border: none;
+    outline: none;
+  }
+}

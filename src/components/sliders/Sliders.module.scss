@@ -1,0 +1,114 @@
+.sliderWrapper{
+  width: 100%;
+  height: 389px;
+  border-radius: 20px;
+
+  .sliderButton{
+    width: 178px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .sliderInnerAdidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 75px;
+
+    h2{
+      font-size: 38px;
+      font-weight: 700;
+      color: #000;
+      max-width: 230px;
+      width: 100%;
+      line-height: 1.1em;
+
+      span{
+        color: #8BB43C;
+      }
+    }
+    button{
+      background: #A5D364;
+    }
+  }
+
+  .sliderInnerNike{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 31px;
+    padding-right: 46px;
+
+    h2{
+      font-size: 38px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.1em;
+
+      span{
+        color: #F93E17;
+      }
+    }
+    button{
+      background: #F93E17;
+    }
+  }
+  .sliderInnerPuma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 50px;
+
+    h2{
+      font-size: 38px;
+      font-weight: 700;
+      color: #FCC42E;
+      line-height: 1.1em;
+
+      span{
+        color: #fff;
+      }
+    }
+    button{
+      background: #FCC42E;
+    }
+  }
+}
+
+.sliderArrow{
+
+  button{
+    background: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+  }
+  //button::before{
+  //  content: '‹';
+  //  color: #C8C8C8;
+  //  font-size: 26px;
+  //  line-height: 0.3;
+  //}
+}
+
+.slick-arrow button>.slick-prev{
+  background: #4DD4F5;
+}
+
+.sliderArrow.slick-arrow.slick-prev{
+  background: #ff0000;
+}
+
+.slick-slider{
+  background: brown;
+}

@@ -1,0 +1,42 @@
+.filtrationWrapper{
+  padding-top: 55px;
+  display: flex;
+
+  .filtrationSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    margin-right: 35px;
+    width: 172px;
+    padding-left: 8px;
+  }
+
+  .filtrationButtons{
+    display: flex;
+
+    button{
+      color: #555555;
+      margin-right: 14px;
+      background: none;
+      cursor: pointer;
+      padding: 12px 35px;
+      border: 1px solid #F3F3F3;
+      border-radius: 10px;
+      font-weight: 300;
+      font-size: 14px;
+    }
+    button:hover{
+      background: #fdfdfd;
+      transition: all 0.2s ease-in-out;
+    }
+    :global button.active{
+      transition: all 0.2s ease-in-out;
+      color: #6A6A6A;
+      background: #FBFBFB;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.sneakersWrapper{
+    padding: 45px 45px;
+
+    .sneakersTitle{
+        margin-top: 45px;
+        margin-bottom: 30px;
+
+        h2{
+            font-size: 32px;
+            font-weight: 700;
+        }
+    }
+
+    .sneakersAll{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
